@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webRTC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>webRTC</h1>
+
+    <div class="videos">
+            <video class="video-player" id="user-1" autoplay playsinline></video>
+            <video class="video-player" id="user-2" autoplay playsinline></video> 
+    </div>
+
+    <button id="create-offer">Create Offer</button>
+    <label>SDP Offer</label>
+    <textarea id="offer-sdp"></textarea>
+
+    <button id="create-answer">Create Answer</button>
+    <label>SDP Answer</label>
+    <textarea id="answer-sdp"></textarea>
+
+    <button id="addAnswer">Add Answer</button>
+
+</body>
+
+<script src="script.js"></script>
+</html>
